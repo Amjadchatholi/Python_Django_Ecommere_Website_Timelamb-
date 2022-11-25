@@ -1,1 +1,1 @@
-web: gunicorn project_timezone.wsgi
+web: gunicorn project_timezone.wsgi --log-file -
